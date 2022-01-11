@@ -58,6 +58,29 @@ console.log(y); // logs 2 and does not throw SyntaxError...
 console.log(c); // logs 3 and does not throw SyntaxError...
 ```
 
+### Template literal (Template strings)
+
+Template literals are literals delimited with backticks (```), allowing embedded expressions called *substitutions*.
+
+Example
+
+```jsx
+// Multi line
+console.log(`string text line 1
+string text line 2`);
+// "string text line 1
+// string text line 2"
+
+// Expression interpolation
+let a = 5;
+let b = 10;
+console.log(`Fifteen is ${a + b} and
+not ${2 * a + b}.`);
+// "Fifteen is 15 and
+// not 20."
+
+```
+
 ### Function Expression
 
 As we can store the value of the function in a variable, we can also pass the whole function and into an value like so:
