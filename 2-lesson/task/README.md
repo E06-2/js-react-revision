@@ -38,12 +38,12 @@ Bonus, modify the function above to return a budget of uer under 25 years old
 
 ## Spread
 
-Create a function `addEntry` that accepts a object as parameter and return a **new** object with the entry `isMember` set to `true`
+Create a function `addMember` that accepts an object as parameter and return a **new** object with the entry `isMember` set to `true`
 
 Example:
 
 ```js
 const user = { name: 'John', age: 21, isMember: false };
 
-addEntry(user); // ➞ { name: 'John', age: 21, isMember = true}
+addMember(user); // ➞ { name: 'John', age: 21, isMember = true}
 ```
